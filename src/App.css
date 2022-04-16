@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+.app_tools_wrap {
+  width: 400px;
+  height: 100%;
+  position:fixed;
+  padding: 10px;
+}
+.App {
+  height: 100%;
+  position: relative;
+}
+.app_target_wrap {
+  margin-left: 420px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app_tools_title {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  text-align: center;
+}
+/* .app_tools_download_img {
+  width: 80%;
+  background: rgb(141, 7, 171);
+  height: 45px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 20px;
+} */
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 70%;
+  background: rgb(141, 7, 171);
+  height: 40px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blanchedalmond;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: .3s;
+}
+.custom-file-upload:hover {
+  background: rgb(182, 11, 220);
+  color: blanchedalmond;
+}
+.app_tools_download_img_btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.active {
+  background: red !important;
+}
+.button_wrap {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.slider {
+  width: 90% !important;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+  /* text-align: center !important; */
+  display: flex !important;
+  justify-content: center !important;
+}

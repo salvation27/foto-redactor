@@ -1,0 +1,66 @@
+export const defaultBtn = [
+    {
+        name:'Brightness',
+        property:'brightness',
+        value:100,
+        range:{
+          min:0,
+          max:200
+        },
+        unit:'%'
+      },
+      {
+        name:'Contrast',
+        property:'contrast',
+        value:100,
+        range:{
+          min:0,
+          max:200
+        },
+        unit:'%'
+      },
+      {
+        name:'Hue Rotate',
+        property:'hue-rotate',
+        value:0,
+        range:{
+          min:0,
+          max:360
+        },
+        unit:'deg'
+      },
+      {
+        name:'Blur',
+        property:'blur',
+        value:0,
+        range:{
+          min:0,
+          max:20
+        },
+        unit:'px'
+      },
+]
+
+
+export const defaultBtn2 = [
+  {
+    name:'Border-radius',
+    property:'borderRadius',
+    value:0,
+    range:{
+      min:0,
+      max:100
+    },
+    unit:'px'
+  },
+  {
+    name:'Border',
+    property:'border',
+    value:0,
+    range:{
+      min:0,
+      max:100
+    },
+    unit:'px'
+  }
+]
